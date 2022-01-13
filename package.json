@@ -1,6 +1,6 @@
 {
   "name": "phc-bcrypt",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Node.JS bcrypt password hashing algorithm following the PHC string format",
   "license": "MIT",
   "homepage": "https://github.com/thetutlage/phc-bcrypt#readme",
@@ -60,7 +60,7 @@
   "dependencies": {
     "@kdf/salt": "^2.0.1",
     "@phc/format": "^1.0.0",
-    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "tsse": "^2.0.0"
   },
   "devDependencies": {

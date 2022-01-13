@@ -1,7 +1,7 @@
 /* eslint-disable capitalized-comments,prefer-destructuring,promise/prefer-await-to-then */
 'use strict';
 
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
 const tsse = require('tsse');
 const phc = require('@phc/format');
 const gensalt = require('@kdf/salt');
